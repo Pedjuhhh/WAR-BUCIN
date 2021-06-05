@@ -270,7 +270,7 @@ async def typewriter(typew):
 #Jadi Ga Usah Bacot Ngentod
     
 CMD_HELP.update({
-    "animasi1":
+    "animasi6":
     "•   **Syntax**: .hai\
     \n•**Function**: Cosplay Nissa Sablon\
     \n\n   •**Syntax**: .kntl\

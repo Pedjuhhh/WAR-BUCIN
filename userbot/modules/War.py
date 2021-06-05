@@ -1,6 +1,11 @@
 # Create by myself @localheart
 # Peyy Minta ya
 
+from time import sleep
+from userbot import CMD_HELP, bot
+from userbot.events import register
+from telethon import events
+import asyncio
 
 @register(outgoing=True, pattern=r"^\.ywc(?: |$)(.*)")
 async def typewriter(typew):

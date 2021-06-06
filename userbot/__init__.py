@@ -351,7 +351,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```🛠️C O N G R A T S 卩乇ㄚㄚ - 𝑃 𝑅 𝑂 𝐽 𝐸 𝐶 𝑇  T E L A H A K T I F T O D...🛠️!!```")
+    await bot.send_message(BOTLOG_CHATID, "```  ➥ Congrats 卩乇ㄚㄚ - 𝑃 𝑅 𝑂 𝐽 𝐸 𝐶 𝑇 Telah Berhasil Di Aktifkan Tod... ✅```")
     return
 
 with bot:

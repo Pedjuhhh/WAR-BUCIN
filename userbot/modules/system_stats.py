@@ -267,12 +267,12 @@ async def amireallyalive(alive):
     output = (
         f"**ㅤㅤㅤㅤ ⚜️卩乇ㄚㄚ - 𝑃 𝑅 𝑂 𝐽 𝐸 𝐶 𝑇 ⚜️**\n"
         f"╔══════════╬════╬══════════╗ \n"
-        f"╟⟩⟩ 🤴 • `ᴏᴡɴᴇʀ    :`[卩乇ㄚㄚ](t.me/Untelee)              ㅤ ║\n"
-        f"╟⟩⟩ 🖥️ • `ꜱʏꜱᴛᴇᴍ.   :`Ubuntu 20.10            ║\n"
-        f"╟⟩⟩ ⚙️ • `ᴛᴇʟᴇᴛʜᴏɴ  :`v.{version.__version__}                ㅤㅤ  ║\n"
-        f"╟⟩⟩ 🐍 • `ᴘʏᴛʜᴏɴ.   :`v.{python_version()} ㅤㅤㅤㅤ         ║\n"
-        f"╟⟩⟩ 👾 • `ʙᴏᴛ      :`v.{BOT_VER}                ㅤㅤㅤ ║\n"
-        f"╟⟩⟩ 📂 • `ᴍᴏᴅᴜʟᴇ   :`{len(modules)} ㅤㅤㅤㅤㅤㅤㅤ   ║\n"
+        f"╟⟩⟩ 🤴 • `ᴏᴡɴᴇʀ    :`[卩乇ㄚㄚ](t.me/Untelee)              ㅤ \n"
+        f"╟⟩⟩ 🖥️ • `ꜱʏꜱᴛᴇᴍ.   :`Ubuntu 20.10            \n"
+        f"╟⟩⟩ ⚙️ • `ᴛᴇʟᴇᴛʜᴏɴ  :`v.{version.__version__}                ㅤㅤ  \n"
+        f"╟⟩⟩ 🐍 • `ᴘʏᴛʜᴏɴ.   :`v.{python_version()} ㅤㅤㅤㅤ         \n"
+        f"╟⟩⟩ 👾 • `ʙᴏᴛ      :`v.{BOT_VER}                ㅤㅤㅤ \n"
+        f"╟⟩⟩ 📂 • `ᴍᴏᴅᴜʟᴇ   :`{len(modules)} ㅤㅤㅤㅤㅤㅤㅤ   \n"
         f"╚══════════╬════╬══════════╝ \n"
         f"🔰 : [𝐑𝐞𝐩𝐨 - 𝐏𝐞𝐲𝐲](https://github.com/Mpey0503/PeyyProject)\n👥 : [𝐏𝐞𝐲𝐲-𝗧𝗘𝗔𝗠](t.me/GirlHD)\n👤 : [𝗢𝗪𝗡𝗘𝗥](t.me/Untelee)\n"
     )
@@ -304,22 +304,22 @@ async def redis(alive):
     await alive.edit("__Bismillah..__")
     await alive.edit("__Bismillah...__")
     await alive.edit("__Bismillah....__")
-    await alive.edit("__Connectin Duls.__")
-    await alive.edit("__Connectin Duls..__")
-    await alive.edit("__Connectin Duls...__")
+    await alive.edit("__Connecting Duls.__")
+    await alive.edit("__Connecting Duls..__")
+    await alive.edit("__Connecting Duls...__")
     await alive.edit("⚡")
     await asyncio.sleep(2)
     output = (
         f"╭═──────╼═⌘═╾───────═\n"
-        f"┃ 卩乇ㄚㄚ - 𝑃 𝑅 𝑂 𝐽 𝐸 𝐶 𝑇 \n"
+        f"┃   卩乇ㄚㄚ - 𝑃 𝑅 𝑂 𝐽 𝐸 𝐶 𝑇 \n"
         f"╰═─────╼══⌘══╾─────═ \n"
-        f" ❍ `Name     :` {DEFAULTUSER} \n"
-        f" ❍ `Username :` @{user.username} \n"
-        f" ❍ `Telethon :` Ver {version.__version__} \n"
-        f" ❍ `Python   :` Ver {python_version()} \n"
-        f" ❍ `Branch   :` **Peyy-USERBOT** \n"
-        f" ❍ `Bot Ver  :` {BOT_VER} \n"
-        f" ❍ `Modules  :` {len(modules)} Modules \n"
+        f" ➥ `Name     :` {DEFAULTUSER} \n"
+        f" ➥ `Username :` @{user.username} \n"
+        f" ➥ `Telethon :` Ver {version.__version__} \n"
+        f" ➥ `Python   :` Ver {python_version()} \n"
+        f" ➥ `Branch   :` **Peyy-USSERBOT** \n"
+        f" ➥ `Bot Ver  :` {BOT_VER} \n"
+        f" ➥ `Modules  :` {len(modules)} Modules \n"
         f"╭═───────╼⌘╾───────═ \n"
         f"┃[𝗥𝗲𝗽𝗼](https://github.com/PeyyProject)  |  [𝗢𝗪𝗡𝗘𝗥](t.me/Untelee)  |  "
         f"[𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺](https://Instagram.com/_ahmdprdnsyh)\n"

@@ -138,7 +138,7 @@ async def gben(userbot):
     except BaseException:
         pass
     return await dark.edit(
-        f"**Perintah:** `{ALIVE_NAME}`\n**Jamet:** [{user.first_name}](tg://user?id={user.id})\n**Aksi:** `Global Banned`"
+        f"**☠ Perintah:** `{ALIVE_NAME}`\n**☠ Jamet:** [{user.first_name}](tg://user?id={user.id})\n**☠Aksi:** `Global Banned`"
     )
 
 
@@ -152,7 +152,7 @@ async def gunben(userbot):
     else:
         dark = await dc.edit("`Membatalkan Perintah Global Banned Buat Jamet`")
     me = await userbot.client.get_me()
-    await dark.edit(f"`Memulai Membatalkan Perintah Global Banned, Pengguna Ini Akan Dapat Bergabung Ke Grup Anda`")
+    await dark.edit(f"`Memulai Membatalkan Perintah Global Banned Si Jamet, Hewan Ini Akan Dapat Bergabung Ke Grup Anda`")
     my_mention = "[{}](tg://user?id={})".format(me.first_name, me.id)
     f"@{me.username}" if me.username else my_mention
     await userbot.get_chat()
@@ -191,7 +191,7 @@ async def gunben(userbot):
             try:
                 await userbot.client.edit_permissions(i, user, send_messages=True)
                 a += 1
-                await dark.edit(f"`Membatalkan Global Banned... Memproses... `")
+                await dark.edit(f"`Membatalkan Global Banned Hewan... Memproses... `")
             except BaseException:
                 b += 1
     else:
@@ -202,7 +202,7 @@ async def gunben(userbot):
     except BaseException:
         pass
     return await dark.edit(
-        f"**Perintah :** `{ALIVE_NAME}`\n**Pengguna:** [{user.first_name}](tg://user?id={user.id})\n**Aksi:** `Membatalkan Global Banned`"
+        f"**☠ Perintah :** `{ALIVE_NAME}`\n**☠ Pengguna:** [{user.first_name}](tg://user?id={user.id})\n**☠Aksi:** `Membatalkan Global Banned`"
     )
 
 

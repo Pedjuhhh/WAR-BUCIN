@@ -25,7 +25,7 @@ async def help(event):
         if args in CMD_HELP:
             await event.edit(str(CMD_HELP[args]))
         else:
-            await event.edit("**`Command Ga Ke Temu Anjing , Ketik Yang Bener Ngentot`**")
+            await event.edit("**`➠ 𝘾𝙊𝙈𝙈𝘼𝙉𝘿 𝙂𝘼 𝙆𝙀𝙏𝙀𝙈𝙐 𝘼𝙉𝙅𝙄𝙉𝙂 , 𝙉𝙂𝙀𝙏𝙄𝙆 𝙔𝘼𝙉𝙂 𝘽𝙀𝙉𝙀𝙍 𝙉𝙂𝙀𝙉𝙏𝙊𝙏  `**")
             await asyncio.sleep(200)
             await event.delete()
     else:
@@ -33,7 +33,7 @@ async def help(event):
         for i in CMD_HELP:
             string += "`" + str(i)
             string += "`\t ✯  "
-        await event.edit("**⭀ 𝑃𝐸𝑌𝑌-𝑈𝑆𝐸𝑅𝐵𝑂𝑇 ⭀**\n\n"
+        await event.edit("**☯ 𝑃𝐸𝑌𝑌-𝑈𝑆𝐸𝑅𝐵𝑂𝑇 ☯⭀**\n\n"
                          f"**◉ Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n**◉ Mᴏᴅᴜʟᴇꜱ : {len(modules)}**\n\n"
                          "**• Mᴀɪɴ Mᴇɴᴜ :**\n"
                          f"◉ {string}◉\n\n")

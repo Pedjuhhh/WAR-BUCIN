@@ -38,16 +38,16 @@ LASTMSG = {}
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 CUSTOM_MIDDLE_PMP = str(
-    CUSTOM_PMPERMIT_TEXT) if CUSTOM_PMPERMIT_TEXT else f"│Karena Saya Akan Otomatis Memblokir\n│Anda, Tunggu Sampai Tuan {DEFAULTUSER}\n│Menerima Pesan Anda, Terimakasih.\n"
+    CUSTOM_PMPERMIT_TEXT) if CUSTOM_PMPERMIT_TEXT else f"│Karena Saya Akan Otomatis Memblokir\n│Anda, Tunggu Sampai Tuan{DEFAULTUSER}\n│Menerima Pesan Lu Ya Anjing, Terimakasih.\n"
 DEF_UNAPPROVED_MSG = (
     "◄┈─╼━━━━━━━━━━━━━━━━━╾─┈╮\n"
     "ㅤ“𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐓𝐡𝐞 𝐏𝐫𝐢𝐯𝐚𝐜𝐲 𝐌𝐞𝐬𝐬𝐚𝐠𝐞.”\n"
     "╭┈─╼━━━━━━━━━━━━━━━━━╾─┈╯\n"
-    "│ ➺ 𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙏𝙤 𝙈𝙮 𝙍𝙤𝙤𝙢 𝘾𝙝𝙖𝙩 ツ\n│\n"
-    f" Tolong Jangan Spam Ya │\n"
+    "│𝘿𝙄𝙇𝘼𝙍𝘼𝙉𝙂 𝙈𝙀𝙇𝘼𝙆𝙐𝙆𝘼𝙉 𝙎𝙋𝘼𝙈 ツ\n│\n"
+    f"{CUSTOM_MIDDLE_PMP}│\n"
     "╰┈────────────────────┈─➤\n"
     "▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▰▱\n"
-    "┣[○› `AUTOMATIC MESSAGES`\n"
+    "┣[○› `PESAN OTOMATIS`\n"
     f"┣[○› `BY` 卩乇ㄚㄚ - 𝑃 𝑅 𝑂 𝐽 𝐸 𝐶 𝑇\n"
     "▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▱")
 
@@ -250,7 +250,7 @@ async def approvepm(apprvpm):
     except IntegrityError:
         return await apprvpm.edit("`Oke, Pesan Anda Sudah Diterima Oleh Pemilik Saya`")
 
-    await apprvpm.edit(f"`𝙷𝚊𝚒 👋` [{name0}](tg://user?id={uid}) `𝙿𝚎𝚜𝚊𝚗 𝙰𝚗𝚍𝚊 𝚂𝚞𝚍𝚊𝚑 𝙳𝚒𝚝𝚎𝚛𝚒𝚖𝚊` ⚡")
+    await apprvpm.edit(f"`𝙷𝚊𝚒 👋` [{name0}](tg://user?id={uid}) `𝙿𝚎𝚜𝚊𝚗 𝙰𝚗𝚍𝚊 𝚂𝚞𝚍𝚊𝚑 𝙳𝚒𝚝𝚎𝚛𝚒𝚖𝚊 ツ'")
     await apprvpm.delete(getmsg)
     await message.delete()
 

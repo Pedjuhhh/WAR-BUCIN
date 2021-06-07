@@ -24,8 +24,8 @@ from userbot.events import register
 
 
 KANGING_STR = [
-    "Sedang Mengambil Sticker Ini Ke Pack Anda",
-    "Sedang Mengambil Sticker Ini Ke Pack Anda",
+    "Izin Ngambil Tikelnya Ya Ngentot",
+    "Izin Ngambil Tikelnya Ya Ngentot",
 ]
 
 
@@ -198,7 +198,7 @@ async def kang(args):
                 # Ensure user doesn't get spamming notifications
                 await bot.send_read_acknowledge(conv.chat_id)
         else:
-            await args.edit("`Membuat Pack Sticker Baru`")
+            await args.edit("`Pim Pim Pom Nyuli tikel `")
             async with bot.conversation("Stickers") as conv:
                 await conv.send_message(cmd)
                 await conv.get_response()
@@ -242,7 +242,7 @@ async def kang(args):
                 await bot.send_read_acknowledge(conv.chat_id)
 
         await args.edit(
-            f"**Sticker Berhasil Ditambahkan**\n      **>>> [Tekan Disini](t.me/addstickers/{packname}) <<<**\n**Untuk Melihat Sticker Anda**",
+            f"**Sticker Uda Di Buat Ya Anjing**\n      **>>> [Sentuh Ini Bep](t.me/addstickers/{packname}) <<<**\n**Buat Ngeliat Sticker Lu **",
             parse_mode="md",
         )
 
@@ -275,7 +275,7 @@ async def resize_photo(photo):
 async def get_pack_info(event):
     if not event.is_reply:
         return await event.edit(
-            "`Mohon Balas Ke Sticker`"
+            "`Mohon Balas Ke Sticker Anjing`"
         )
 
     rep_msg = await event.get_reply_message()
@@ -286,10 +286,10 @@ async def get_pack_info(event):
         stickerset_attr = rep_msg.document.attributes[1]
         await event.edit("`Fetching details of the sticker pack, please wait..`")
     except BaseException:
-        return await event.edit("`Ini bukan sticker, Mohon balas ke sticker.`")
+        return await event.edit("`Ini bukan sticker Tolol, balas ke sticker ngentot.`")
 
     if not isinstance(stickerset_attr, DocumentAttributeSticker):
-        return await event.edit("`Ini bukan sticker, Mohon balas ke sticker.`")
+        return await event.edit("`Ini bukan sticker Tolol, balas ke sticker ngentot.`")
 
     get_stickerset = await bot(
         GetStickerSetRequest(

@@ -386,7 +386,7 @@ def paginate_help(page_number, loaded_modules, prefix):
     helpable_modules = [p for p in loaded_modules if not p.startswith("_")]
     helpable_modules = sorted(helpable_modules)
     modules = [
-        custom.Button.inline("{} {} ✣".format("✣", x), data="ub_modul_{}".format(x))
+        custom.Button.inline("{} {} 🛡️".format("🛡️", x), data="ub_modul_{}".format(x))
         for x in helpable_modules
     ]
     pairs = list(zip(modules[::number_of_cols],
@@ -428,7 +428,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("⚜️𝙋𝙚𝙮𝙮 𝙋𝙧𝙤𝙟𝙚𝙘𝙩⚜️, Buat Userbot Mu Sendiri [Tekan Disini](https://Mpey0503.github.io/PeyyProject)")
+                await event.reply("⚔️𝙋𝙚𝙮𝙮 𝙋𝙧𝙤𝙟𝙚𝙘𝙩⚔️, Buat Userbot Mu Sendiri [Tekan Disini](https://Mpey0503.github.io/PeyyProject)")
             else:
                 await event.reply(f"`Hai {DEFAULTUSER}\n\nApa Kabarmu ? 😊`")
 
@@ -444,7 +444,7 @@ with bot:
                     text="{}"
                     f"\n\n**Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n\n"
                     "◎› **Pʟᴜɢɪɴꜱ :** `{}`\n◎› **Mᴇɴᴜ ᴏꜰ ʙᴏᴛ ↯** \n".format(
-                        "** ╡⚜️𝙋𝙚𝙮𝙮 𝙋𝙧𝙤𝙟𝙚𝙘𝙩⚜️╞ **",
+                        "** ╡⚔️𝙋𝙚𝙮𝙮 𝙋𝙧𝙤𝙟𝙚𝙘𝙩⚔️╞ **",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -452,18 +452,18 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ╡⚜️𝙋𝙚𝙮𝙮 𝙋𝙧𝙤𝙟𝙚𝙘𝙩⚜️╞ ",
+                    "Bantuan Dari ╡⚔️𝙋𝙚𝙮𝙮-𝙋𝙧𝙤𝙟𝙚𝙘𝙩⚔️╞ ",
                     text="Daftar Modul",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ╡⚜️𝙋𝙚𝙮𝙮 𝙋𝙧𝙤𝙟𝙚𝙘𝙩⚜️╞ ",
-                    text="""**Anda Bisa Membuat ⚜️𝙋𝙚𝙮𝙮 𝙋𝙧𝙤𝙟𝙚𝙘𝙩⚜️ Anda Sendiri Dengan Cara :** __Tekan Dibawah Ini__ 👇""",
+                    " ╡⚔️𝙋𝙚𝙮𝙮 𝙋𝙧𝙤𝙟𝙚𝙘𝙩⚔️╞ ",
+                    text="""**Anda Bisa Membuat ⚔️𝙋𝙚𝙮𝙮 𝙋𝙧𝙤𝙟𝙚𝙘𝙩⚔️ Anda Sendiri Dengan Cara :** __Tekan Dibawah Ini__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "⚜️𝐏𝐄𝐘𝐘⚜️",
+                                "⚔️𝐏𝐄𝐘𝐘⚔️",
                                 "https://github.com/Mpey0503/PeyyProject"),
                             custom.Button.url(
                                 "🍃𝗢𝘄𝗻𝗲𝗿",
@@ -486,7 +486,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"🚫!WARNING!🚫 Jangan Menggunakan Milik {DEFAULTUSER}."
+                reply_pop_up_alert = f"Jangan Tap Tap Bot Punya Tuan {DEFAULTUSER} Anjing , Kalo Mau Lu Bikin Sendiri 😝."
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -504,7 +504,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"🚫!WARNING!🚫 Jangan Menggunakan Milik {DEFAULTUSER}."
+                reply_pop_up_alert = f"🚫!WARNING!🚫 Jangan Pake Punya Tuan {DEFAULTUSER} Anjing."
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(

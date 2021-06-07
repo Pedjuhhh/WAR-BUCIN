@@ -129,7 +129,7 @@ async def filters_active(event):
         from userbot.modules.sql_helper.filter_sql import get_filters
     except AttributeError:
         return await event.edit("`Running on Non-SQL mode!`")
-    transact = "`Tidak Ada Filter Apapun Disini.`"
+    transact = "`Tidak Ada Filter Apapun Disini Sayang.`"
     filters = get_filters(event.chat_id)
     for filt in filters:
         if transact == "`Tidak Ada Filter Apapun Disini Sayang.`":

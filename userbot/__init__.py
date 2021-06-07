@@ -386,7 +386,7 @@ def paginate_help(page_number, loaded_modules, prefix):
     helpable_modules = [p for p in loaded_modules if not p.startswith("_")]
     helpable_modules = sorted(helpable_modules)
     modules = [
-        custom.Button.inline("{} {} 🛡️".format("🛡️", x), data="ub_modul_{}".format(x))
+        custom.Button.inline("{} {} 📍".format("📍", x), data="ub_modul_{}".format(x))
         for x in helpable_modules
     ]
     pairs = list(zip(modules[::number_of_cols],
@@ -444,7 +444,7 @@ with bot:
                     text="{}"
                     f"\n\n**Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n\n"
                     "◎› **Pʟᴜɢɪɴꜱ :** `{}`\n◎› **Mᴇɴᴜ ᴏꜰ ʙᴏᴛ ↯** \n".format(
-                        "** ╡⚔️𝙋𝙚𝙮𝙮 𝙋𝙧𝙤𝙟𝙚𝙘𝙩⚔️╞ **",
+                        "** ╡⚔️ 𝙋𝙚𝙮𝙮-𝙋𝙧𝙤𝙟𝙚𝙘𝙩 ⚔️╞ **",
                         len(dugmeler),
                     ),
                     buttons=buttons,

@@ -250,7 +250,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("👻")
     sleep(2)
-    await typew.edit("**⚜️卩乇ㄚㄚ - 𝑃 𝑅 𝑂 𝐽 𝐸 𝐶 𝑇 ⚜️**\n\n [𝚂𝚎𝚗𝚝𝚞𝚑 𝙰𝚔𝚞 𝙱𝚎𝚋](https://github.com/Mpey0503/PeyyProject)\n 𝐓𝐡𝐚𝐧𝐤𝐬 𝐅𝐨𝐫 𝐔𝐬𝐢𝐧𝐠👻")
+    await typew.edit("**⚜️•ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶⚜️**\n\n [𝚂𝚎𝚗𝚝𝚞𝚑 𝙰𝚔𝚞 𝙱𝚎𝚋](https://github.com/Mpey0503/PeyyProject)\n 𝐓𝐡𝐚𝐧𝐤𝐬 𝐅𝐨𝐫 𝐔𝐬𝐢𝐧𝐠👻")
 
    
 @register(outgoing=True, pattern='^.ehm(?: |$)(.*)')

@@ -349,20 +349,80 @@ async def koc(e):
         await e.edit("`GABUT`")
 
 
-@register(outgoing=True, pattern='^.sangean(?: |$)(.*)')
+@register(outgoing=True, pattern='^.nembakara(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`Kalo Sange Modal`")
+    await typew.edit("`Jadi gini aku sebelumnya udah bilang itu`")
     sleep(1)
-    await typew.edit("`Jangan Modal Kontol Doang`")
+    await typew.edit("`Itu loh anu`")
     sleep(1)
-    await typew.edit("`Goblook Emang`")
+    await typew.edit("`Jadi gini gw kan itu`")
     sleep(1)
-    await typew.edit("`Kelamaan Nge Jomblo Sih`")
+    await typew.edit("`Ga tau kapan sih gw mati`")
     sleep(1)
-    await typew.edit("`Jadinya Gitu, Sange Berat`")
+    await typew.edit("`Maka dari itu tata kata gw jd kiasan`")
     sleep(1)
-    await typew.edit("`MAKANYA KALO HIDUP HARUS GANTENG KONTOOOLL`")
+    await typew.edit("`Eh jadi udang di balik batu`")
+    sleep(1)
+    await typew.edit("`Karena insecure liat Arra yg cantik`")
+    sleep(1)
+    await typew.edit("`Habis tu pungguk jadi bisa terbang `")
+    sleep(1)
+    await typew.edit("`Buat ngejar Ara`")
+    sleep(1)
+    await typew.edit("`Tapi kalah sm botnya beelzebub`")
+    sleep(1)
+    await typew.edit("`jadi gini kenapa ikan `")
+    sleep(1)
+    await typew.edit("`Ngaa`")
+    sleep(1)
+    await typew.edit("`Jay ini sadar diri sebenernya`")
+    sleep(1)
+    await typew.edit("`Udah kurang Gd Luking`")
+    sleep(1)
+    await typew.edit("`Rekening gw pas pasan`")
+    sleep(1)
+    await typew.edit("`Fisik tinggi dikit`")
+    sleep(1)
+    await typew.edit("`Hobi motoran`")
+    sleep(1)
+    await typew.edit("`Mageran`")
+    sleep(1)
+    await typew.edit("`Tapi pemalas adalah orang tercepat mengerjakan tugas`")
+    sleep(1)
+    await typew.edit("`ko blibet knp siii`")
+    sleep(1)
+    await typew.edit("`Buat Araaaa`")
+    sleep(1)
+    await typew.edit("`Gw naksir sm Aara`")
+    sleep(1)
+    await typew.edit("`Sayang Sikap Ara yg tegas`")
+    sleep(1)
+    await typew.edit("`Bodonya yg lucu`")
+    sleep(1)
+    await typew.edit("`Jangan di puji mulu y kan`")
+    sleep(1)
+    await typew.edit("`JADI GMN??`")
+    sleep(1)
+    await typew.edit("`ARA MAU GA SI?`")
+    sleep(1)
+    await typew.edit("`JADI PACAR DARI PEMILIK AKUN BEELZEBUB`")
+    sleep(1)
+    await typew.edit("`Jangan di tolak`")
+    sleep(1)
+    await typew.edit("`Nanti aku nangis`")
+    sleep(1)
+    await typew.edit("`Terserah padamu aku begini adanya`")
+    sleep(1)
+    await typew.edit("`Kuhormati keputusanmu`")
+    sleep(1)
+    await typew.edit("`Aaaaaarrrrraaaaaaa`")
+    sleep(1)
+    await typew.edit("`Mau ga jadi pacar yg nyusun kata kata ini??`")
+    sleep(1)
+    await typew.edit("`Mau yaaaaaa??`")
+    sleep(1)
+    await typew.edit("`??????`")
 # Create by myself @localheart
 
 
@@ -391,7 +451,8 @@ async def _(event):
 
         animation_chars = [
             "`Connecting Ke Server Cinta`",
-            "`Mencari Target Cinta`",
+            "`Mencari Target Cinta`"
+            "`Menemukan Ara `",
             "`Mengirim Cintaku.. 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 8%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
@@ -400,7 +461,7 @@ async def _(event):
             "`Mengirim Cintaku.. 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 84%\n█████████████████████▒▒▒▒ `",
             "`Mengirim Cintaku.. 100%\n█████████CINTAKU███████████ `",
-            f"`Cintaku Sekarang Sepenuhnya Terkirim Padamu, Dan Sekarang Aku Sangat Mencintai Mu, I Love You 💞`"]
+            f"`Cintaku Sekarang Sepenuhnya Terkirim Pada Ara, Dan Sekarang Aku Sangat Mencintai Ara, I Love You Ara💞`"]
 
         for i in animation_ttl:
 

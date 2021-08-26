@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/Mpey0503/PEYY-USERBOT/fork">
-    <img src="https://img.shields.io/github/forks/Mpey0503/PEYY-USERBOT?label=Fork&style=social">
+    <img src="https://img.shields.io/github/forks/BabyBeelzebub/WAR-BUCIN?label=Fork&style=social">
     
   </a>
   <a href="https://github.com/Mpey0503/PEYY-USERBOT">
@@ -26,7 +26,7 @@
 ##
 
 # JANGAN BINGUNG BUAT DEPLOY!
-[![Deploy](https://telegra.ph/file/d86cb727b3df94590a091.jpg)](https://heroku.com/deploy?template=https://github.com/Mpey0503/PeyyProject.git)
+[![Deploy](https://telegra.ph/file/d86cb727b3df94590a091.jpg)](https://heroku.com/deploy?template=https://github.com/BabyBeelzebub/WAR-BUCIN.git)
 
 
 <h3 align="center">REPO INI DIBUAT KARNA LAGI GABUT AJA SI HAHA.</h3>

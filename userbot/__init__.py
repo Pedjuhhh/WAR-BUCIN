@@ -106,7 +106,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/Mpey0503/PeyyProject")
+    "https://github.com/BabyBeelzebub/WAR-BUCIN")
 UPSTREAM_REPO_BRANCH = os.environ.get(
     "UPSTREAM_REPO_BRANCH", "Geez-UserBot")
 
@@ -351,7 +351,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```  ➥ Congrats 卩乇ㄚㄚ - 𝑃 𝑅 𝑂 𝐽 𝐸 𝐶 𝑇 Telah Berhasil Di Aktifkan Tod... ✅```")
+    await bot.send_message(BOTLOG_CHATID, "```  ➥ Congrats •ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶ Telah Berhasil Di Aktifkan Tod... ✅```")
     return
 
 with bot:
@@ -444,7 +444,7 @@ with bot:
                     text="{}"
                     f"\n\n**Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n\n"
                     "◎› **Pʟᴜɢɪɴꜱ :** `{}`\n◎› **Mᴇɴᴜ ᴏꜰ ʙᴏᴛ ↯** \n".format(
-                        "** ╡⚔️ 𝙋𝙚𝙮𝙮-𝙋𝙧𝙤𝙟𝙚𝙘𝙩 ⚔️╞ **",
+                        "** ╡⚔️ •ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶𝙩 ⚔️╞ **",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -452,22 +452,22 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ╡⚔️𝙋𝙚𝙮𝙮-𝙋𝙧𝙤𝙟𝙚𝙘𝙩⚔️╞ ",
+                    "Bantuan Dari ╡⚔️•ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶⚔️╞ ",
                     text="Daftar Modul",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ╡⚔️𝙋𝙚𝙮𝙮 𝙋𝙧𝙤𝙟𝙚𝙘𝙩⚔️╞ ",
-                    text="""**Anda Bisa Membuat ⚔️𝙋𝙚𝙮𝙮 𝙋𝙧𝙤𝙟𝙚𝙘𝙩⚔️ Anda Sendiri Dengan Cara :** __Tekan Dibawah Ini__ 👇""",
+                    " ╡⚔️•ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶⚔️╞ ",
+                    text="""**Anda Bisa Membuat ⚔️•ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶⚔️ Anda Sendiri Dengan Cara :** __Tekan Dibawah Ini__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "⚔️𝐏𝐄𝐘𝐘⚔️",
-                                "https://github.com/Mpey0503/PeyyProject"),
+                                "⚔️•ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶⚔️",
+                                "https://github.com/BabyBeelzebub/WAR-BUCIN"),
                             custom.Button.url(
                                 "🍃𝗢𝘄𝗻𝗲𝗿",
-                                "t.me/Untelee")]],
+                                "t.me/ByBeezDS")]],
                     link_preview=False,
                 )
             await event.answer([result] if result else None)

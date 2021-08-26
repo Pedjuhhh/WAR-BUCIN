@@ -43,19 +43,19 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**LU TAU ANJING GA? IYA ITU LU 1 SPESIES TAU GAA KNP? DARI TADI LU GONGGONG BACOT DOANG ISINA NGEHINA PARAH BET SI HINA BET GA ZII**")
-    )
+    
     
 @register(outgoing=True, pattern=r"^\.cel(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**EH BABI HUTAN ITEM BURIK DEKIL KALO LU CMN BISA TYPING TANPA MATERI SAMA AJA KAYA CELENG CMN BISA MAJU MUNDUR PAHAM GA BEGO?**")
-    )
+    
 
 @register(outgoing=True, pattern=r"^\.bljr(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**BANYAKIN BELAJAR TOLOL BIAR PINTER NYARI KOSA KATA MAKAN NYE KALO SEKOLA YANG BENER DONGO EH IYE GUA LUPA LU ANAK YATIM MUKA MUKA MACAM LU MANA BISA SEKOLAH MALU ORANG TUA LU AJA KAGA JELAS SIAPA TOLOL**")
-    ) 
+     
     
 @register(outgoing=True, pattern=r"^\.pp(?: |$)(.*)")
 async def typewriter(typew):

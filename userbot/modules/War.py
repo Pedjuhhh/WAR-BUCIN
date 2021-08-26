@@ -72,7 +72,7 @@ async def typewriter(typew):
         "**BOCAH MISKIN KEKURANGAN GIZI LU AJA UDAH KURUS KAYAK KANGKUNG GITU ANJING SINI GW KASI PAHAM SAMA LU PILIH DAN BELI MAKAN MAKANAN YANG BERNUTRISI BIAR OTAK LU CERDAS BISA NYUSUN KOSA KATA YG BERDAMAGE DIKITAN**"
     )
     
-@register(outgoing=True, pattern=r"^\.kurus(?: |$)(.*)")
+@register(outgoing=True, pattern=r"^\.krs(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(

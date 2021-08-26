@@ -353,7 +353,7 @@ async def koc(e):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Jadi gini aku sebelumnya udah bilang itu`")
-    sleep(1)
+    sleep(2)
     await typew.edit("`Itu loh anu`")
     sleep(1)
     await typew.edit("`Jadi gini gw kan itu`")
@@ -361,12 +361,12 @@ async def typewriter(typew):
     await typew.edit("`Ga tau kapan sih gw mati`")
     sleep(1)
     await typew.edit("`Maka dari itu tata kata gw jd kiasan`")
-    sleep(1)
+    sleep(2)
     await typew.edit("`Eh jadi udang di balik batu`")
     sleep(1)
-    await typew.edit("`Karena insecure liat Arra yg cantik`")
+    await typew.edit("`Trs insecure liat Arra yg cantik`")
     sleep(1)
-    await typew.edit("`Habis tu pungguk jadi bisa terbang `")
+    await typew.edit("`Trs pungguk jadi bisa terbang `")
     sleep(1)
     await typew.edit("`Buat ngejar Ara`")
     sleep(1)
@@ -388,7 +388,9 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`Mageran`")
     sleep(1)
-    await typew.edit("`Tapi pemalas adalah orang tercepat mengerjakan tugas`")
+    await typew.edit("`Tapi pemalas adalah orang`")
+    sleep(1)
+    await typew.edit("`tercepat mengerjakan tugas`")
     sleep(1)
     await typew.edit("`ko blibet knp siii`")
     sleep(1)
@@ -407,19 +409,19 @@ async def typewriter(typew):
     await typew.edit("`ARA MAU GA SI?`")
     sleep(1)
     await typew.edit("`JADI PACAR DARI PEMILIK AKUN BEELZEBUB`")
-    sleep(1)
+    sleep(2)
     await typew.edit("`Jangan di tolak`")
     sleep(1)
     await typew.edit("`Nanti aku nangis`")
     sleep(1)
     await typew.edit("`Terserah padamu aku begini adanya`")
-    sleep(1)
+    sleep(2)
     await typew.edit("`Kuhormati keputusanmu`")
     sleep(1)
     await typew.edit("`Aaaaaarrrrraaaaaaa`")
     sleep(1)
     await typew.edit("`Mau ga jadi pacar yg nyusun kata kata ini??`")
-    sleep(1)
+    sleep(2)
     await typew.edit("`Mau yaaaaaa??`")
     sleep(1)
     await typew.edit("`??????`")
@@ -451,7 +453,7 @@ async def _(event):
 
         animation_chars = [
             "`Connecting Ke Server Cinta`",
-            "`Mencari Target Cinta`"
+            "`Mencari Target Cinta`",
             "`Menemukan Ara `",
             "`Mengirim Cintaku.. 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",

@@ -84,38 +84,38 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**MUKA LU HINA, GAUSAH SOK KERAS YA ANJENGG!!**")
-    )    
+        
  
 
 @register(outgoing=True, pattern=r"^\.dp(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**MUKA LU HINA, GAUSAH SOK KERAS YA ANJENGG!!**")
-    )
+    
 
 @register(outgoing=True, pattern=r"^\.so(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**GAUSAH SOKAB SAMA GUA GOBLOK, LU BABU GA LEVEL!!**")
-    )
+    
 
 @register(outgoing=True, pattern=r"^\.nb(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**MAEN BOT MULU ALAY NGENTOTT, KESANNYA NORAK GOBLOK!!!**")
-    )
+    
 
 @register(outgoing=True, pattern=r"^\.met(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**NAMANYA JUGA JAMET CAPER SANA SINI BUAT CARI NAMA**")
-    )
+    
     
     
  @register(outgoing=True, pattern=r"^\.but(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**BOT BOT APA SI PAKE BOT SURREND PALA BAPAK KAU SURREND GINI GW KASI PAHAM BUAT MANUSIA BEGO KAYA LU YG GA BISA PAKE BOT SOSOAN LAMA MAIN TELE BOCAH LAMA TAPI GA BISA MANFAATIN CUMAN BISA WAR WAR TAI ANJING WAHAI SAMPAH GA ADA MANFAATNYA KASTA RENDAH USER TELEGRAM**")
+    await typew.edit("**BOT BOT APA SI PAKE BOT SURREND PALA BAPAK KAU SURREND GINI GW KASI PAHAM BUAT MANUSIA BEGO KAYA LU YG GA BISA PAKE BOT SOSOAN LAMA MAIN TELE BOCAH LAMA TAPI GA BISA MANFAATIN CUMAN BISA WAR WAR TAI ANJING WAHAI SAMPAH GA ADA MANFAATNYA KASTA RENDAH USER TELEGRAM**"
     )
 
     

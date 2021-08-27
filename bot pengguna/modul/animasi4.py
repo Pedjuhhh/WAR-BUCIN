@@ -463,7 +463,7 @@ async def _(event):
             "`Mengirim Cintaku.. 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 84%\n█████████████████████▒▒▒▒ `",
             "`Mengirim Cintaku.. 100%\n█████████CINTAKU███████████ `",
-            f"`Cintaku Sekarang Sepenuhnya Terkirim Pada Ara, Dan Sekarang Aku Sangat Mencintai Ara, I Love You Ara💞`"]
+            "`Cintaku Sekarang Sepenuhnya Terkirim Pada Ara, Dan Sekarang Aku Sangat Mencintai Ara, I Love You Ara💞`"]
 
         for i in animation_ttl:
 

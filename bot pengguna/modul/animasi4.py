@@ -453,7 +453,6 @@ async def _(event):
 
         animation_chars = [
             "`Connecting Ke Server Cinta`",
-            "`Mencari Target Cinta`",
             "`Menemukan Ara `",
             "`Mengirim Cintaku.. 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",

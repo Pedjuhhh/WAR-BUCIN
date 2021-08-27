@@ -42,7 +42,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern=r"^\.asu(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    menunggu  ketik . edit ( "**LU TAU ANJING GA? IYA ITU LU 1 SPESIES TAU GAA KNP? DARI TADI LU GONGGONG BACOT DOANG ISINYA NGEHINA PARAH BET SI HINA BET GA ZII**" )
+    await typew.edit ( "**LU TAU ANJING GA? IYA ITU LU 1 SPESIES TAU GAA KNP DARI TADI LU GONGGONG BACOT DOANG ISINYA NGEHINA PARAH BET SI HINA BET GA ZII**" )
     
     
 @register(outgoing=True, pattern=r"^\.cel(?: |$)(.*)")

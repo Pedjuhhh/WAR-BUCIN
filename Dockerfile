@@ -3,7 +3,7 @@ FROM xluxz/geezproject:buster
 # Lah U cp Atur atur
 # Geez-UserBot
 #
-RUN git clone -b Geez-UserBot https://github.com/boyproject/WAR-BUCIN /root/userbot
+RUN git clone -b Geez-UserBot https://github.com/pedjuhhh/WAR-BUCIN /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot

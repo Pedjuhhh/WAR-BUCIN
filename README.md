@@ -1,11 +1,11 @@
 
 
 <p align="center">
-  <a href="https://github.com/pedjuhhh/WAR-BUCIN/fork">
-    <img src="https://img.shields.io/github/forks/pedjuhhh/WAR-BUCIN?label=Fork&style=social">
+  <a href="https://github.com/Pedjuhhh/WAR-BUCIN/fork">
+    <img src="https://img.shields.io/github/forks/Pedjuhhh/WAR-BUCIN?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/pedjuhhh/WAR-BUCIN">
+  <a href="https://github.com/Pedjuhhh/WAR-BUCIN">
     <img src="https://img.shields.io/github/stars/Mpey0503/PEYY-USERBOT?style=social">
   </a>
 </p>  
@@ -26,7 +26,7 @@
 ##
 
 # JANGAN BINGUNG BUAT DEPLOY!
-[![Deploy](https://telegra.ph/file/d86cb727b3df94590a091.jpg)](https://heroku.com/deploy?template=https://github.com/pedjuhhh/WAR-BUCIN.git)
+[![Deploy](https://telegra.ph/file/d86cb727b3df94590a091.jpg)](https://heroku.com/deploy?template=https://github.com/Pedjuhhh/WAR-BUCIN.git)
 
 
 <h3 align="center">REPO INI DIBUAT KARNA LAGI GABUT AJA SI HAHA.</h3>

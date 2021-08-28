@@ -394,7 +394,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`ko blibet knp siii`")
     sleep(1)
-    await typew.edit("`Buat Araaaa`")
+    await typew.edit("`Buat araaaa`")
     sleep(1)
     await typew.edit("`Gw naksir sm Aara`")
     sleep(1)
@@ -453,7 +453,7 @@ async def _(event):
 
         animation_chars = [
             "`Connecting Ke Server Cinta`",
-            "`Menghubungkan server Ara `",
+            "`Menghubungkan server Sisil `",
             "`Mengirim Cintaku.. 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 8%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
@@ -462,7 +462,7 @@ async def _(event):
             "`Mengirim Cintaku.. 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 84%\n█████████████████████▒▒▒▒ `",
             "`Mengirim Cintaku.. 100%\n█████████CINTAKU███████████ `",
-            f"`Cintaku Sekarang Sepenuhnya Terkirim Pada Ara, Dan Sekarang Aku Sangat Mencintai Ara, I Love You Ara💞`"]
+            f"`Cintaku Sekarang Sepenuhnya Terkirim Pada Sisil, Dan Sekarang Aku Sangat Mencintai Sisil, I Love You Sisil💞`"]
 
         for i in animation_ttl:
 

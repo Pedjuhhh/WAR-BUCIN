@@ -68,7 +68,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(
-        "**BAGI BOCAH BOCAH TELE KARBITAN YG BARU TERBIT KALO LU GA TAU DOUBLE STAR?INGAT DI ATAS LANGIT MASIH ADA BINTANG**"
+        "**BAGI BOCAH BOCAH TELE KARBITAN YG BARU TERBIT KALO LU GA TAU BEELZEBUB & ATRAXS? KALO GA TAU BURUAN JOIN, LAGI OPEN MEMBER NIH https://t.me/atraxscom & https://t.me/yaelaahjointod**"
     )
     
 @register(outgoing=True, pattern=r"^\.kurus(?: |$)(.*)")

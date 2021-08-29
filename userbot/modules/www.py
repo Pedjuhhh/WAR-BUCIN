@@ -59,7 +59,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**╭━━━━━━━━━━━━━━━━━╮** \n"
-                    f"**        - ✯ 𝙋𝙚𝙮𝙮 𝙋𝙧𝙤𝙟𝙚𝙘𝙩 ✯ -** \n"
+                    f"**        - ✯ •ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶ ✯ -** \n"
                     f"**   ▰▱▰▱▰▱▰▱▰▱▰▱** \n"
                     f"**        • ꜱɪɢɴᴀʟ  :** `%sms` \n"
                     f"**        • ᴏᴡɴᴇʀ   :** `{ALIVE_NAME}` \n"
@@ -121,7 +121,7 @@ async def redis(pong):
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**✯ P E Y Y - 𝑃 𝑅 𝑂 𝐽 𝐸 𝐶 𝑇 ✯**\n\n"
+    await pong.edit(f"**✯•ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶ ✯**\n\n"
                     f"** ▹  Sɪɢɴᴀʟ   :** "
                     f"`%sms` \n"
                     f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -142,7 +142,7 @@ async def redis(pong):
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"➥ P E Y Y - 𝑃 𝑅 𝑂 𝐽 𝐸 𝐶 𝑇 \n**➣ Owner** : {ALIVE_NAME}\n**➣ Pinger** : %sms\n**➣ Bot Uptime** : {uptime}" % (duration))
+    await pong.edit(f"➥•ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶ \n**➣ Owner** : {ALIVE_NAME}\n**➣ Pinger** : %sms\n**➣ Bot Uptime** : {uptime}" % (duration))
 
 
 @register(outgoing=True, pattern="^.speed$")
@@ -169,7 +169,7 @@ async def speedtst(spd):
                    f"`{result['ping']}` \n"
                    "✧ **ISP:** "
                    f"`{result['client']['isp']}` \n"
-                   "✧ **BOT:** ➣卩乇ㄚㄚ - 𝑃 𝑅 𝑂 𝐽 𝐸 𝐶 𝑇")
+                   "✧ **BOT:** ➣•ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶")
 
 
 def speed_convert(size):

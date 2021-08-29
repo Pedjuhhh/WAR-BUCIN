@@ -124,7 +124,7 @@ async def typewriter(typew):
     await typew.edit("`Maaf anda terlalu alay dan jelek`")
     sleep(2)
     await typew.edit("`Selamat ANDA TERTOLAK SECARA HALUS`")
-    sleep(2)
+   
 
 
 @register(outgoing=True, pattern="^.mf$")
@@ -152,6 +152,8 @@ async def _(event):
 
         animation_chars = [
             "`Connecting Ke Server Cinta`",
+            "`Mencari Server Cinta`",
+            "`Menemukan server Ara`",
             "`Menghubungkan server Ara `",
             "`Mengirim Cintaku.. 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",

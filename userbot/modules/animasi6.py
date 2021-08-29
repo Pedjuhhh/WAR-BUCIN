@@ -66,12 +66,14 @@ async def typewriter(typew):
     await typew.edit("pantes **NORAK**")
 
     
-@register(outgoing=True, pattern='^.peyygans(?: |$)(.*)') 
+@register(outgoing=True, pattern='^.beegans(?: |$)(.*)') 
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit("baik")
+    await typew.edit("JAY itu")
     sleep(1)
+    await typew.edit("baik")
+    sleep(2)
     await typew.edit("Tidak Sombong")
     sleep(1)
     await typew.edit("Ganteng")
@@ -92,17 +94,17 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("Jujur")
     sleep(1)
-    await typew.edit("Tidk Sombong")
+    await typew.edit("KALEM")
     sleep(1)
     await typew.edit("Kaya")
     sleep(1)
-    await typew.edit("Pokoknya Peyy Pro Dah")
-    sleep(1)
+    await typew.edit("Itinya JAY dl ga si")
+    sleep(2)
     await typew.edit("Tidak Seperti Yang Lain")
     sleep(1)
     await typew.edit("Bersama Babi Membangun Negri")
     sleep(1)
-    await typew.edit("eh salah salah, \nBersama **Peyy** Membangun Negri")
+    await typew.edit("eh salah salah, \nBersama **JAY** Membami jamet Negri")
     
 @register(outgoing=True, pattern='^.erpe(?: |$)(.*)')
 async def typewriter(typew):
@@ -212,9 +214,9 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Ayanggggg😖`")
     sleep(1)
-    await typew.edit("`Ange😫`")
+    await typew.edit("`Pengen😫`")
     sleep(1)
-    await typew.edit("`Ayukkk Ewean Ayanggg🤤`")
+    await typew.edit("`Ayukkk Slipkol🤤`")
 
 @register(outgoing=True, pattern='^.engas(?: |$)(.*)')
 async def typewriter(typew):
@@ -250,7 +252,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("👻")
     sleep(2)
-    await typew.edit("**⚜️•ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶⚜️**\n\n [𝚂𝚎𝚗𝚝𝚞𝚑 𝙰𝚔𝚞 𝙱𝚎𝚋](https://github.com/Mpey0503/PeyyProject)\n 𝐓𝐡𝐚𝐧𝐤𝐬 𝐅𝐨𝐫 𝐔𝐬𝐢𝐧𝐠👻")
+    await typew.edit("**⚜️•ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶⚜️**\n\n [𝚂𝚎𝚗𝚝𝚞𝚑 𝙰𝚔𝚞 𝙱𝚎𝚋]𝐓𝐡𝐚𝐧𝐤𝐬 𝐅𝐨𝐫 𝐔𝐬𝐢𝐧𝐠👻")
 
    
 @register(outgoing=True, pattern='^.ehm(?: |$)(.*)')
@@ -263,6 +265,9 @@ async def typewriter(typew):
     await typew.edit("Kayanya kalau call pribadi lebih jelas")
     sleep(2)
     await typew.edit("Gamau nyoba?")
+    sleep(2)
+    await typew.edit("Aman ko ga aneh aneh")
+    
 
     
 #P o c o n g - U s e r b o t

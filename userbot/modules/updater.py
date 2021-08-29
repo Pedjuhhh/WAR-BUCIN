@@ -115,9 +115,9 @@ async def update(event, repo, ups_rem, ac_br):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await update_requirements()
-    await event.edit('**卩乇ㄚㄚ - 𝑃 𝑅 𝑂 𝐽 𝐸 𝐶 𝑇** `Berhasil Di Update Ya Anjing!`')
+    await event.edit('**•ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶** `Berhasil Di Update `')
     await asyncio.sleep(1)
-    await event.edit('**卩乇ㄚㄚ - 𝑃 𝑅 𝑂 𝐽 𝐸 𝐶 𝑇** `Uda Di Restart....`')
+    await event.edit('**•ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶** `Uda Di Restart....`')
     await asyncio.sleep(1)
     await event.edit('`Mohon Menunggu Beberapa Detik.`')
     await asyncio.sleep(10)
@@ -208,7 +208,7 @@ async def upstream(event):
             remove("output.txt")
         else:
             await event.edit(changelog_str)
-        return await event.respond('**Perintah Untuk Update, Sebagai Berikut.**\n 𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`.update now`\n 𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`.update deploy`\n\n__Untuk Meng Update Fitur Terbaru Dari ⚜️卩乇ㄚㄚ - 𝑃 𝑅 𝑂 𝐽 𝐸 𝐶 𝑇 ⚜️.__')
+        return await event.respond('**Perintah Untuk Update, Sebagai Berikut.**\n 𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`.update now`\n 𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`.update deploy`\n\n__Untuk Meng Update Fitur Terbaru Dari ⚜️•ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶⚜️.__')
 
     if force_update:
         await event.edit(

@@ -119,7 +119,7 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("`Sedang menuggu jawabann..`")
     sleep(2)
-    await typew.edit("`Sedang menuggu jawabann..`")
+    await typew.edit("`Sedang menuggu jawabann...`")
     sleep(2)
     await typew.edit("`Maaf anda terlalu alay dan jelek`")
     sleep(2)

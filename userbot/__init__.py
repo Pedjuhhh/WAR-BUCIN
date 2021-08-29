@@ -351,7 +351,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```  ➥ Congrats •ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶ Telah Berhasil Di Aktifkan Tod... ✅```")
+    await bot.send_message(BOTLOG_CHATID, "```  ➥ Congrats •ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶ Telah Berhasil Di Aktifkan ... ✅```")
     return
 
 with bot:
@@ -428,7 +428,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("⚔️𝙋𝙚𝙮𝙮 𝙋𝙧𝙤𝙟𝙚𝙘𝙩⚔️, Buat Userbot Mu Sendiri [Tekan Disini](https://Mpey0503.github.io/PeyyProject)")
+                await event.reply("⚔️•ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶⚔️, Buat Userbot Mu Sendiri [Tekan Disini]")
             else:
                 await event.reply(f"`Hai {DEFAULTUSER}\n\nApa Kabarmu ? 😊`")
 

@@ -66,7 +66,7 @@ async def typewriter(typew):
     await typew.edit("pantes **NORAK**")
 
     
-@register(outgoing=True, pattern='^.peyygans(?: |$)(.*)') 
+@register(outgoing=True, pattern='^.boygans(?: |$)(.*)') 
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
@@ -96,13 +96,13 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("Kaya")
     sleep(1)
-    await typew.edit("Pokoknya Peyy Pro Dah")
+    await typew.edit("Pokoknya Boy Pro Dah")
     sleep(1)
     await typew.edit("Tidak Seperti Yang Lain")
     sleep(1)
     await typew.edit("Bersama Babi Membangun Negri")
     sleep(1)
-    await typew.edit("eh salah salah, \nBersama **Peyy** Membangun Negri")
+    await typew.edit("eh salah salah, \nBersama **Boy** Membangun Negri")
     
 @register(outgoing=True, pattern='^.erpe(?: |$)(.*)')
 async def typewriter(typew):

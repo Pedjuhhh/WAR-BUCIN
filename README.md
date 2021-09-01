@@ -10,13 +10,6 @@
   </a>
 </p>  
 
-![VIEWS](https://komarev.com/ghpvc/?username=Mpey0503)
-
-## REPO YANG DI CIPTAKAN OLEH TANGAN YANG TIDAK PERNAH KAMU SENTUH
-[<img src="https://media0.giphy.com/media/ya4eevXU490Iw/giphy.gif">](https://t.me/Untelee)
-##
-##
-# KALO FORK TUH KASIH BINTANG YA TOLOL!
 
 
 ## JOIN DULU TOT!!:
@@ -26,7 +19,7 @@
 ##
 
 # JANGAN BINGUNG BUAT DEPLOY!
-[![Deploy](https://telegra.ph/file/d86cb727b3df94590a091.jpg)](https://heroku.com/deploy?template=https://github.com/BabyBeelzebub/WAR-BUCIN.git)
+[![Deploy](https://heroku.com/deploy?template=https://github.com/BabyBeelzebub/WAR-BUCIN.git)
 
 
 <h3 align="center">REPO INI DIBUAT KARNA LAGI GABUT AJA SI HAHA.</h3>

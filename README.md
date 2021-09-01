@@ -19,7 +19,7 @@
 ##
 
 # JANGAN BINGUNG BUAT DEPLOY!
-[![Deploy](https://heroku.com/deploy?template=https://github.com/BabyBeelzebub/WAR-BUCIN.git)
+(https://heroku.com/deploy?template=https://github.com/BabyBeelzebub/WAR-BUCIN.git)
 
 
 <h3 align="center">REPO INI DIBUAT KARNA LAGI GABUT AJA SI HAHA.</h3>

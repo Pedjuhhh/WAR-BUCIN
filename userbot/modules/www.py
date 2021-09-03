@@ -59,8 +59,8 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**╭━━━━━━━━━━━━━━━━━╮** \n"
-                    f"**        - ✯ 𝙋𝙚𝙮𝙮 𝙋𝙧𝙤𝙟𝙚𝙘𝙩 ✯ -** \n"
-                    f"**   ▰▱▰▱▰▱▰▱▰▱▰▱** \n"
+                    f"**        - ✯ 𝑩𝑶𝒀 - 𝑷𝑹𝑶𝑱𝑬𝑪𝑻 ✯ -** \n"
+                    f"**   ▰▱▰▱▰▱▰▱▰▱▰** \n"
                     f"**        • ꜱɪɢɴᴀʟ  :** `%sms` \n"
                     f"**        • ᴏᴡɴᴇʀ   :** `{ALIVE_NAME}` \n"
                     f"**╰━━━━━━━━━━━━━━━━━╯** \n" % (duration))
@@ -97,7 +97,7 @@ async def redis(pong):
     await pong.edit("__Yapss Dapet...__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**✯卩 E Y Y - 𝑃 𝑅 𝑂 𝐽 𝐸 𝐶 𝑇 ✯**\n"
+    await pong.edit(f"**✯ 𝑩𝑶𝒀 - 𝑷𝑹𝑶𝑱𝑬𝑪𝑻 ✯**\n"
                     f"➾ __Signal__    __:__ "
                     f"`%sms` \n"
                     f"➾ __Uptime__ __:__ "
@@ -121,7 +121,7 @@ async def redis(pong):
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**✯ P E Y Y - 𝑃 𝑅 𝑂 𝐽 𝐸 𝐶 𝑇 ✯**\n\n"
+    await pong.edit(f"**✯ 𝑩𝑶𝒀 - 𝑷𝑹𝑶𝑱𝑬𝑪𝑻 ✯**\n\n"
                     f"** ▹  Sɪɢɴᴀʟ   :** "
                     f"`%sms` \n"
                     f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -142,7 +142,7 @@ async def redis(pong):
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"➥ P E Y Y - 𝑃 𝑅 𝑂 𝐽 𝐸 𝐶 𝑇 \n**➣ Owner** : {ALIVE_NAME}\n**➣ Pinger** : %sms\n**➣ Bot Uptime** : {uptime}" % (duration))
+    await pong.edit(f"➥ 𝑩𝑶𝒀 - 𝑷𝑹𝑶𝑱𝑬𝑪𝑻 \n**➣ Owner** : {ALIVE_NAME}\n**➣ Pinger** : %sms\n**➣ Bot Uptime** : {uptime}" % (duration))
 
 
 @register(outgoing=True, pattern="^.speed$")
@@ -169,7 +169,7 @@ async def speedtst(spd):
                    f"`{result['ping']}` \n"
                    "✧ **ISP:** "
                    f"`{result['client']['isp']}` \n"
-                   "✧ **BOT:** ➣卩乇ㄚㄚ - 𝑃 𝑅 𝑂 𝐽 𝐸 𝐶 𝑇")
+                   "✧ **BOT:** ➣𝑩𝑶𝒀 - 𝑷𝑹𝑶𝑱𝑬𝑪𝑻")
 
 
 def speed_convert(size):

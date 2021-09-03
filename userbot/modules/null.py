@@ -2,15 +2,15 @@ from time import sleep
 from userbot.events import register
 
 
-@register(outgoing=True, pattern='^.peyy(?: |$)(.*)')
+@register(outgoing=True, pattern='^.boyy(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
-    await typew.edit("`Hai Perkenalkan Namaku Peyy`")
+    await typew.edit("`Hai Perkenalkan Namaku Boy`")
     sleep(3)
-    await typew.edit("`Umur Aku 17 Tahun , Muda kan?`")
+    await typew.edit("`Umur Aku 18 Tahun , Muda kan?`")
     sleep(1)
-    await typew.edit("`Tinggal Di Bogor, Sabilah kenalan:)`")
+    await typew.edit("`Tinggal Di Bekasi, Sabilah kenalan:)`")
 # Create by myself @localheart
 
 

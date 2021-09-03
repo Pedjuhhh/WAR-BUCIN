@@ -1,20 +1,3 @@
-# Copyright (C) 2020 Adek Maulana
-#
-# SPDX-License-Identifier: GPL-3.0-or-later
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-
 import re
 import hashlib
 import asyncio
@@ -165,8 +148,8 @@ async def run_cmd(cmd: List) -> (bytes, bytes):
 
 def post_to_telegraph(title, html_format_content):
     post_client = TelegraphPoster(use_api=True)
-    auth_name = "Geez-UserBot"
-    auth_url = "https://github.com/vckyou/Geez-UserBot"
+    auth_name = "•ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶ "
+    auth_url = "https://github.com/BabyBeelzebub/WAR-BUCIN"
     post_client.create_api_token(auth_name)
     post_page = post_client.post(
         title=title,

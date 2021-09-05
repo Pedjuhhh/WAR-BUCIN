@@ -351,7 +351,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```  ➥ Congrats •ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶ Telah Berhasil Di Aktifkan Tod... ✅```")
+    await bot.send_message(BOTLOG_CHATID, "```  ➥ Congrats •ʙᴀᴅʙᴏʏツ Telah Berhasil Di Aktifkan Tod... ✅```")
     return
 
 with bot:
@@ -444,7 +444,7 @@ with bot:
                     text="{}"
                     f"\n\n**Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n\n"
                     "◎› **Pʟᴜɢɪɴꜱ :** `{}`\n◎› **Mᴇɴᴜ ᴏꜰ ʙᴏᴛ ↯** \n".format(
-                        "** ╡⚔️ •ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶𝙩 ⚔️╞ **",
+                        "** ╡⚔️ •ʙᴀᴅʙᴏʏツ ⚔️╞ **",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -452,18 +452,18 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ╡⚔️•ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶⚔️╞ ",
+                    "Bantuan Dari ╡⚔️•ʙᴀᴅʙᴏʏツ⚔️╞ ",
                     text="Daftar Modul",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ╡⚔️•ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶⚔️╞ ",
-                    text="""**Anda Bisa Membuat ⚔️•ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶⚔️ Anda Sendiri Dengan Cara :** __Tekan Dibawah Ini__ 👇""",
+                    " ╡⚔️•ʙᴀᴅʙᴏʏツ⚔️╞ ",
+                    text="""**Anda Bisa Membuat ⚔️•ʙᴀᴅʙᴏʏツ⚔️ Anda Sendiri Dengan Cara :** __Tekan Dibawah Ini__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "⚔️•ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶⚔️",
+                                "⚔️•ʙᴀᴅʙᴏʏツ⚔️",
                                 "https://github.com/BabyBeelzebub/WAR-BUCIN"),
                             custom.Button.url(
                                 "🍃𝗢𝘄𝗻𝗲𝗿",

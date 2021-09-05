@@ -93,10 +93,10 @@ async def typewriter(typew):
         
  
 
-@register(outgoing=True, pattern=r"^\.dp(?: |$)(.*)")
+@register(outgoing=True, pattern=r"^\.rosa(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**MUKA LU HINA, GAUSAH SOK KERAS YA ANJENGG!!**")
+    await typew.edit("**M𝐀𝐊𝐀𝐍 𝐑𝐎𝐓𝐈 𝐏𝐀𝐊𝐄 𝐒𝐀𝐎𝐒, 𝐊𝐀𝐌𝐔 𝐀𝐃𝐀 𝐘𝐀𝐍𝐆 𝐏𝐔𝐍𝐘𝐀 𝐓𝐄𝐓𝐄𝐏 𝐊𝐔𝐓𝐑𝐎𝐁𝐎𝐒!!**")
     
 
 @register(outgoing=True, pattern=r"^\.so(?: |$)(.*)")

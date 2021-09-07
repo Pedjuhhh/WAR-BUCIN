@@ -349,7 +349,7 @@ async def koc(e):
         await e.edit("`GABUT`")
 
 
-@register(outgoing=True, pattern='^.nembakara(?: |$)(.*)')
+@register(outgoing=True, pattern='^.nembak(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Jadi gini aku sebelumnya udah bilang itu`")
@@ -364,13 +364,13 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("`Eh jadi udang di balik batu`")
     sleep(1)
-    await typew.edit("`Trs insecure liat Arra yg cantik`")
+    await typew.edit("`Trs insecure liat Dilla yg cantik`")
     sleep(1)
     await typew.edit("`Trs pungguk jadi bisa terbang `")
     sleep(1)
-    await typew.edit("`Buat ngejar Ara`")
+    await typew.edit("`Buat ngejar Dilla`")
     sleep(1)
-    await typew.edit("`Tapi kalah sm botnya beelzebub`")
+    await typew.edit("`Tapi kalah sm botnya Boy`")
     sleep(1)
     await typew.edit("`jadi gini kenapa ikan `")
     sleep(1)
@@ -394,9 +394,9 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`ko blibet knp siii`")
     sleep(1)
-    await typew.edit("`Buat araaaa`")
+    await typew.edit("`Buat Dilla`")
     sleep(1)
-    await typew.edit("`Gw naksir sm Aara`")
+    await typew.edit("`Gw naksir sm Dilla`")
     sleep(1)
     await typew.edit("`Sayang Sikap Ara yg tegas`")
     sleep(1)
@@ -408,7 +408,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`ARA MAU GA SI?`")
     sleep(1)
-    await typew.edit("`JADI PACAR DARI PEMILIK AKUN BEELZEBUB`")
+    await typew.edit("`JADI PACAR DARI PEMILIK AKUN BadBoy`")
     sleep(2)
     await typew.edit("`Jangan di tolak`")
     sleep(1)
@@ -418,7 +418,7 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("`Kuhormati keputusanmu`")
     sleep(1)
-    await typew.edit("`Aaaaaarrrrraaaaaaa`")
+    await typew.edit("`Dddiiilllllaaa`")
     sleep(1)
     await typew.edit("`Mau ga jadi pacar yg nyusun kata kata ini??`")
     sleep(2)
@@ -452,8 +452,8 @@ async def _(event):
         await event.edit(input_str)
 
         animation_chars = [
-            "`Connecting Ke Server Cinta`",
-            "`Menghubungkan server Sisil `",
+            "`Connecting Ke Server Cinta❤️",
+            "`Menghubungkan server Dilla🥰 `",
             "`Mengirim Cintaku.. 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 8%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
@@ -462,7 +462,7 @@ async def _(event):
             "`Mengirim Cintaku.. 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 84%\n█████████████████████▒▒▒▒ `",
             "`Mengirim Cintaku.. 100%\n█████████CINTAKU███████████ `",
-            f"`Cintaku Sekarang Sepenuhnya Terkirim Pada Sisil, Aku Sangat Mencintai Sisil, I Love You Sisil💞`"]
+            f"`Cintaku Sekarang Sepenuhnya Terkirim Pada Dilla, Aku Sangat Mencintai Dilla, I Love You Dilla💞`"]
 
         for i in animation_ttl:
 
